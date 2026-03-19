@@ -1,2 +1,0 @@
-C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ar.exe qc libbintool.a CMakeFiles/bintool.dir/bintool.cpp.obj CMakeFiles/bintool.dir/mbedtls_wrapper.c.obj
-C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ranlib.exe libbintool.a

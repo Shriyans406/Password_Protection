@@ -4,8 +4,8 @@
 #include "hardware/flash.h"
 #include "hardware/sync.h"
 
-// Saving data at the 2MB mark to stay away from the main program
 #define FLASH_TARGET_OFFSET (2 * 1024 * 1024)
+const uint LED_PIN = PICO_DEFAULT_LED_PIN; // The onboard LED
 
 struct SecretEntry {
     char service[32];
@@ -25,15 +25,26 @@ void save_secret(SecretEntry entry) {
 }
 
 int main() {
-    stdio_init_all();
-    sleep_ms(5000); // Give you time to open the monitor
+    // 1. Start the LED so we can see it's alive
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+    gpio_put(LED_PIN, 1); // Turn LED ON
 
+    stdio_init_all();
+    
     SecretEntry test = {"Instagram", "ShrikeUser", "Pass123"};
     save_secret(test);
 
-    // Read it back to verify
-    const SecretEntry* saved = (const SecretEntry*)(XIP_BASE + FLASH_TARGET_OFFSET);
-    printf("Vault Loaded: %s | %s\n", saved->service, saved->username);
-
-    while (1) { tight_loop_contents(); }
+    while (1) {
+        const SecretEntry* saved = (const SecretEntry*)(XIP_BASE + FLASH_TARGET_OFFSET);
+        
+        // Blink the LED every time it shouts the secret
+        gpio_put(LED_PIN, 1);
+        printf("\r\n--- Vault Active ---\r\n");
+        printf("Service: %s\r\n", saved->service);
+        sleep_ms(250);
+        
+        gpio_put(LED_PIN, 0); // Blink OFF
+        sleep_ms(1750); 
+    }
 }

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HP/OneDrive/Desktop/FortressKey/pico-sdk
+# Install script for directory: C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,17 +38,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
+  # Include the install script for each subdirectory.
   include("C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/build/pico-sdk/tools/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/build/pico-sdk/src/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/build/pico-sdk/docs/cmake_install.cmake")
+
 endif()
 

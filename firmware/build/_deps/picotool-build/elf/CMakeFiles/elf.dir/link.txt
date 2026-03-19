@@ -1,2 +1,0 @@
-C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ar.exe qc libelf.a CMakeFiles/elf.dir/elf_file.cpp.obj
-C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ranlib.exe libelf.a
