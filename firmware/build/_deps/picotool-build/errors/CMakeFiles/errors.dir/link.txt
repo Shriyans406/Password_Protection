@@ -1,0 +1,2 @@
+C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ar.exe qc liberrors.a CMakeFiles/errors.dir/errors.cpp.obj
+C:\Users\HP\Downloads\CTOOLS\CTOOLS\mingw32\bin\ranlib.exe liberrors.a

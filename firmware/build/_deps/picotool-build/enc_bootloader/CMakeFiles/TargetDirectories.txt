@@ -1,0 +1,2 @@
+C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir
