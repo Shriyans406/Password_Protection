@@ -13,10 +13,16 @@ set(CMAKE_CXX_STANDARD 17)
 # 3. Wake up the Shrike Lite hardware
 pico_sdk_init()
 
-add_executable(FortressKey main.cpp)
+add_executable(FortressKey 
+main.cpp
+lib/monocypher.c
+)
 
 # 4. Link the Flash memory and USB libraries
 target_link_libraries(FortressKey pico_stdlib hardware_flash)
+
+# Tell the computer where to find the .h file
+target_include_directories(FortressKey PRIVATE lib)
 
 # 5. VERY IMPORTANT: This tells the board to act like a COM port (USB)
 pico_enable_stdio_usb(FortressKey 1)

@@ -126,6 +126,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "CMakeFiles/FortressKey.dir/lib/monocypher.c.obj"
+  "CMakeFiles/FortressKey.dir/lib/monocypher.c.obj.d"
   "CMakeFiles/FortressKey.dir/main.cpp.obj"
   "CMakeFiles/FortressKey.dir/main.cpp.obj.d"
   "FortressKey.elf"

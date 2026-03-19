@@ -1686,6 +1686,30 @@ C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_uniqu
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FortressKey.dir\build.make CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+lib/monocypher.obj: lib/monocypher.c.obj
+.PHONY : lib/monocypher.obj
+
+# target to build an object file
+lib/monocypher.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FortressKey.dir\build.make CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
+.PHONY : lib/monocypher.c.obj
+
+lib/monocypher.i: lib/monocypher.c.i
+.PHONY : lib/monocypher.i
+
+# target to preprocess a source file
+lib/monocypher.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FortressKey.dir\build.make CMakeFiles/FortressKey.dir/lib/monocypher.c.i
+.PHONY : lib/monocypher.c.i
+
+lib/monocypher.s: lib/monocypher.c.s
+.PHONY : lib/monocypher.s
+
+# target to generate assembly for a file
+lib/monocypher.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FortressKey.dir\build.make CMakeFiles/FortressKey.dir/lib/monocypher.c.s
+.PHONY : lib/monocypher.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1910,6 +1934,9 @@ help:
 	@echo ... C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... lib/monocypher.obj
+	@echo ... lib/monocypher.i
+	@echo ... lib/monocypher.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
