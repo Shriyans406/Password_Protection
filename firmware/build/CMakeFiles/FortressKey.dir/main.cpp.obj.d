@@ -68,6 +68,4 @@ CMakeFiles/FortressKey.dir/main.cpp.obj: \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/uart.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/dreq.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\PI24F1~1\include/pico/stdio_usb.h \
- C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HAEB3E~1\include/hardware/flash.h \
- C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA2A15~1\include/hardware/sync.h \
  C:\Users\HP\OneDrive\Desktop\FortressKey\firmware\lib/monocypher.h
