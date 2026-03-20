@@ -2863,8 +2863,6 @@ CMakeFiles/FortressKey.dir/main.cpp.obj: C:/Users/HP/OneDrive/Desktop/FortressKe
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   C:/Users/HP/OneDrive/Desktop/FortressKey/firmware/lib/monocypher.h
 
 
