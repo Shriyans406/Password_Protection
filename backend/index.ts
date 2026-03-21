@@ -34,25 +34,20 @@ const ps = spawn('powershell', [
 // 3. THE PARSER: This is the logic that cleans the garbage
 ps.stdout.on('data', (chunk) => {
     const text = chunk.toString();
-    console.log(`[BOARD RAW]: ${text}`);
 
-    // We look for specific words and "cut" the text we need
     if (text.includes("Service:")) {
-        const serviceMatch = text.match(/Service:\s+(.*)/);
-        if (serviceMatch) vaultData.service = serviceMatch[1].trim();
+        const match = text.match(/Service:\s+(.*)/);
+        if (match) vaultData.service = match[1].trim();
     }
-    if (text.includes("Nonce:")) {
-        const nonceMatch = text.match(/Nonce:\s+([a-f0-9 ]+)/);
-        if (nonceMatch) vaultData.nonce = nonceMatch[1].trim();
-    }
-    if (text.includes("Encrypted:")) {
-        const encMatch = text.match(/Encrypted:\s+([a-f0-9 ]+)/);
-        if (encMatch) vaultData.encrypted = encMatch[1].trim();
-    }
+
     if (text.includes("DECRYPTED:")) {
-        // We stop reading the password at the first non-alphabetical character
-        const passMatch = text.match(/DECRYPTED:\s+([A-Za-z0-9]+)/);
-        if (passMatch) vaultData.decrypted = passMatch[1].trim();
+        if (text.includes("[LOCKED]")) {
+            vaultData.decrypted = "LOCKED: AWAITING PHYSICAL TOUCH";
+        } else {
+            // New Regex: Grab everything between 'DECRYPTED: ' and the '#' symbol
+            const passMatch = text.match(/DECRYPTED:\s+([^#]+)/);
+            if (passMatch) vaultData.decrypted = passMatch[1].trim();
+        }
         vaultData.lastSeen = new Date().toLocaleTimeString();
     }
 });

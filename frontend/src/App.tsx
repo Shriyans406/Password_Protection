@@ -62,11 +62,11 @@ function App() {
         </table>
 
         {/* The Reveal Section */}
-        <div class="p-8 bg-slate-950/50 border-t border-slate-800">
-          <h3 class="text-xs text-gray-500 uppercase mb-4">Decrypted Output</h3>
-          <div class="bg-black p-6 rounded border border-neon/30 text-2xl text-center text-neon shadow-[0_0_15px_rgba(34,197,94,0.1)]">
-            {data().decrypted}
-          </div>
+        <div class={`p-6 rounded border-2 text-2xl text-center transition-all duration-300 ${data().decrypted.includes("LOCKED")
+          ? "bg-red-950/20 border-red-500 text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.2)]"
+          : "bg-green-950/20 border-neon text-neon shadow-[0_0_15px_rgba(34,197,94,0.2)]"
+          }`}>
+          {data().decrypted}
         </div>
       </main>
 
