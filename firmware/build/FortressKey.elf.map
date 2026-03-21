@@ -78,7 +78,7 @@ Discarded input sections
  .text._Z21generate_random_noncePhj
                 0x00000000       0x58 CMakeFiles/FortressKey.dir/main.cpp.obj
  .text._Z14decrypt_secretPK11SecretEntryPc
-                0x00000000       0x28 CMakeFiles/FortressKey.dir/main.cpp.obj
+                0x00000000       0x2c CMakeFiles/FortressKey.dir/main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
  .data          0x00000000        0x0 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
  .bss           0x00000000        0x0 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
@@ -1348,9 +1348,9 @@ Discarded input sections
  .comment       0x00000000       0x44 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
- .data          0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
- .bss           0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
+ .text          0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
+ .data          0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
+ .bss           0x00000000        0x0 C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
  .data          0x00000000        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1673,11 +1673,11 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
+ .boot2         0x10000000      0x100 C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x78d8
+.text           0x10000100     0x78e0
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1739,566 +1739,566 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x48 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000304      0x390 CMakeFiles/FortressKey.dir/main.cpp.obj
+                0x10000304      0x398 CMakeFiles/FortressKey.dir/main.cpp.obj
                 0x10000304                main
  .text.chacha20_rounds
-                0x10000694      0x234 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
+                0x1000069c      0x234 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
  .text.crypto_chacha20_djb
-                0x100008c8      0x7f8 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
-                0x100008c8                crypto_chacha20_djb
+                0x100008d0      0x7f8 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
+                0x100008d0                crypto_chacha20_djb
  .text.gpio_set_pulls
-                0x100010c0       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100010c0                gpio_set_pulls
+                0x100010c8       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100010c8                gpio_set_pulls
  .text.gpio_init
-                0x100010e4       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100010e4                gpio_init
+                0x100010ec       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100010ec                gpio_init
  .text.running_on_fpga
-                0x10001120       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10001120                running_on_fpga
+                0x10001128       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10001128                running_on_fpga
  .text.hw_claim_or_assert
-                0x10001130       0x44 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10001130                hw_claim_or_assert
+                0x10001138       0x44 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10001138                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10001174       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10001174                hw_claim_unused_from_range
+                0x1000117c       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000117c                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10001210       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10001210                spin_locks_reset
+                0x10001218       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10001218                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x1000122c       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000122c                next_striped_spin_lock_num
+                0x10001234       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10001234                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10001244       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10001244                spin_lock_claim_unused
+                0x1000124c       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000124c                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10001268       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001268                irq_set_enabled
+                0x10001270       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001270                irq_set_enabled
  .text.irq_set_pending
-                0x1000128c       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000128c                irq_set_pending
+                0x10001294       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001294                irq_set_pending
  .text.irq_has_shared_handler
-                0x1000129c       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000129c                irq_has_shared_handler
+                0x100012a4       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100012a4                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x100012c8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100012c8                irq_get_vtable_handler
+                0x100012d0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100012d0                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100012d8       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100012d8                irq_set_exclusive_handler
+                0x100012e0       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100012e0                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x1000132c      0x1f4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000132c                irq_add_shared_handler
+                0x10001334      0x1f4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001334                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10001520      0x1d8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001520                irq_remove_handler
+                0x10001528      0x1d8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001528                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100016f8       0xb4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100016f8                irq_add_tail_to_free_list
+                0x10001700       0xb4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001700                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x100017ac       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100017ac                irq_init_priorities
+                0x100017b4       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100017b4                irq_init_priorities
  .text.user_irq_claim_unused
-                0x100017d0       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100017d0                user_irq_claim_unused
+                0x100017d8       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100017d8                user_irq_claim_unused
  .text.lock_init
-                0x100017fc       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100017fc                lock_init
+                0x10001804       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10001804                lock_init
  .text.mutex_init
-                0x1000180c       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000180c                mutex_init
+                0x10001814       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001814                mutex_init
  .text.recursive_mutex_init
-                0x10001828       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001828                recursive_mutex_init
+                0x10001830       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001830                recursive_mutex_init
  .text.critical_section_init
-                0x10001844       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001844                critical_section_init
+                0x1000184c       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x1000184c                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001860       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001860                critical_section_init_with_lock_num
+                0x10001868       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10001868                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10001874       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001874                timer_pool_entry_comparator
+                0x1000187c       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000187c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100018a8       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x100018b0       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x100018d8      0x100 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x100018e0      0x100 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x100019d8      0x1ac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x100019e0      0x1ac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10001b84       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001b84                alarm_pool_init_default
+                0x10001b8c       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001b8c                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001bf0        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001bf0                alarm_pool_get_default
+                0x10001bf8        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001bf8                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001bf8      0x17c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001bf8                alarm_pool_add_alarm_at
+                0x10001c00      0x17c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001c00                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x10001d74        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001d74                alarm_pool_core_num
+                0x10001d7c        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001d7c                alarm_pool_core_num
  .text.sleep_ms
-                0x10001d78       0xf4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001d78                sleep_ms
+                0x10001d80       0xf4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001d80                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001e6c       0xcc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001e6c                best_effort_wfe_or_timeout
+                0x10001e74       0xcc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001e74                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001f38       0xbc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001f40       0xbc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001ff4       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001ff4                hardware_alarm_claim
+                0x10001ffc       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001ffc                hardware_alarm_claim
  .text.time_us_64
-                0x1000200c       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000200c                time_us_64
+                0x10002014       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002014                time_us_64
  .text.busy_wait_until
-                0x10002020       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10002020                busy_wait_until
+                0x10002028       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002028                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10002040       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10002040                hardware_alarm_set_callback
+                0x10002048       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002048                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100020cc       0xd0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100020cc                hardware_alarm_set_target
+                0x100020d4       0xd0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100020d4                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000219c       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000219c                hardware_alarm_cancel
+                0x100021a4       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100021a4                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100021d8       0x58 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100021e0       0x58 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10002230       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10002230                ph_post_alloc_init
+                0x10002238       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10002238                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x1000226c       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000226c                ph_merge_two_pass
+                0x10002274       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10002274                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100022f8      0x124 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10002300      0x124 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x1000241c      0x128 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000241c                ph_remove_head
+                0x10002424      0x128 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10002424                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10002544       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10002544                ph_remove_and_free_node
+                0x1000254c       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000254c                ph_remove_and_free_node
  .text.clocks_init
-                0x100025bc      0x2c8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100025bc                clocks_init
+                0x100025c4      0x2c8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100025c4                clocks_init
  .text.pll_init
-                0x10002884       0xa4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002884                pll_init
+                0x1000288c       0xa4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x1000288c                pll_init
  .text.watchdog_start_tick
-                0x10002928       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002928                watchdog_start_tick
+                0x10002930       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002930                watchdog_start_tick
  .text.watchdog_reboot
-                0x10002938       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002938                watchdog_reboot
+                0x10002940       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002940                watchdog_reboot
  .text.xosc_init
-                0x100029d4       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100029d4                xosc_init
+                0x100029dc       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100029dc                xosc_init
  .text.runtime_init
-                0x100029fc       0xf0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100029fc                runtime_init
- .text._exit    0x10002aec        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002aec                _exit
- .text.exit     0x10002af0        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002af0                exit
- .text.panic    0x10002af8       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002af8                panic
+                0x10002a04       0xf0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002a04                runtime_init
+ .text._exit    0x10002af4        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002af4                _exit
+ .text.exit     0x10002af8        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002af8                exit
+ .text.panic    0x10002b00       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002b00                panic
  .text.hard_assertion_failure
-                0x10002b28        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002b28                hard_assertion_failure
+                0x10002b30        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002b30                hard_assertion_failure
  .text._out_null
-                0x10002b34        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002b3c        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10002b38       0xac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002b40       0xac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10002be4      0x2cc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002bec      0x2cc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002eb0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002eb8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002ec0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002ed0      0x5c4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10003494      0x3fc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002ec8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002ed8      0x5c4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x1000349c      0x3fc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10003890      0xbd0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003898      0xbd0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10004460       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10004460                vfctprintf
+                0x10004468       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004468                vfctprintf
  .text.weak_raw_vprintf
-                0x10004480       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10004480                weak_raw_vprintf
- .text          0x100044b0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10004488       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004488                weak_raw_vprintf
+ .text          0x100044b8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100044c0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100044c0                rom_func_lookup
+                0x100044c8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100044c8                rom_func_lookup
  .text.rom_data_lookup
-                0x100044d0       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100044d0                rom_data_lookup
+                0x100044d8       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100044d8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100044e0       0x44 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100044e0                rom_funcs_lookup
+                0x100044e8       0x44 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100044e8                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x10004524       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10004524                __wrap___aeabi_idivmod
-                0x10004524                divmod_s32s32
-                0x10004524                div_s32s32
-                0x10004524                __wrap___aeabi_idiv
-                0x1000452c                divmod_s32s32_unsafe
-                0x10004558                divmod_s32s32_savestate
+                0x1000452c       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000452c                __wrap___aeabi_idivmod
+                0x1000452c                divmod_s32s32
+                0x1000452c                div_s32s32
+                0x1000452c                __wrap___aeabi_idiv
+                0x10004534                divmod_s32s32_unsafe
+                0x10004560                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10004574       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10004574                __wrap___aeabi_uidiv
-                0x10004574                __wrap___aeabi_uidivmod
-                0x10004574                div_u32u32
-                0x10004574                divmod_u32u32
-                0x1000457c                divmod_u32u32_unsafe
-                0x100045a4                divmod_u32u32_savestate
+                0x1000457c       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000457c                __wrap___aeabi_uidiv
+                0x1000457c                __wrap___aeabi_uidivmod
+                0x1000457c                div_u32u32
+                0x1000457c                divmod_u32u32
+                0x10004584                divmod_u32u32_unsafe
+                0x100045ac                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100045c0      0x424 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100045c0                div_s64s64
-                0x100045c0                divmod_s64s64
-                0x100045c0                __wrap___aeabi_ldivmod
-                0x100045f0                divmod_u64u64
-                0x100045f0                div_u64u64
-                0x100045f0                __wrap___aeabi_uldivmod
-                0x10004600                divmod_u64u64_savestate
-                0x10004620                divmod_s64s64_unsafe
-                0x100046a8                divmod_u64u64_unsafe
+                0x100045c8      0x424 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100045c8                div_s64s64
+                0x100045c8                divmod_s64s64
+                0x100045c8                __wrap___aeabi_ldivmod
+                0x100045f8                divmod_u64u64
+                0x100045f8                div_u64u64
+                0x100045f8                __wrap___aeabi_uldivmod
+                0x10004608                divmod_u64u64_savestate
+                0x10004628                divmod_s64s64_unsafe
+                0x100046b0                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x100049e4       0x80 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100049e4                __wrap___aeabi_drsub
-                0x100049ea                __wrap___aeabi_dsub
-                0x100049fc                __wrap___aeabi_dadd
-                0x10004a0e                __wrap___aeabi_ddiv
-                0x10004a4a                __wrap___aeabi_dmul
+                0x100049ec       0x80 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100049ec                __wrap___aeabi_drsub
+                0x100049f2                __wrap___aeabi_dsub
+                0x10004a04                __wrap___aeabi_dadd
+                0x10004a16                __wrap___aeabi_ddiv
+                0x10004a52                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10004a64       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004a64                __wrap___aeabi_cdrcmple
-                0x10004a74                __wrap___aeabi_cdcmpeq
-                0x10004a74                __wrap___aeabi_cdcmple
+                0x10004a6c       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004a6c                __wrap___aeabi_cdrcmple
+                0x10004a7c                __wrap___aeabi_cdcmpeq
+                0x10004a7c                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10004ad0        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004ad0                __wrap___aeabi_dcmplt
+                0x10004ad8        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004ad8                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10004adc       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004adc                __wrap___aeabi_dcmpge
+                0x10004ae4       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004ae4                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10004aec        0xa CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004aec                __wrap___aeabi_dcmpgt
+                0x10004af4        0xa CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004af4                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10004af6       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004af6                __wrap___aeabi_dcmpun
- *fill*         0x10004b12        0x2 
+                0x10004afe       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004afe                __wrap___aeabi_dcmpun
+ *fill*         0x10004b1a        0x2 
  .text.__wrap___aeabi_i2d
-                0x10004b14       0x38 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004b14                __wrap___aeabi_ui2d
-                0x10004b1c                __wrap___aeabi_i2d
+                0x10004b1c       0x38 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004b1c                __wrap___aeabi_ui2d
+                0x10004b24                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10004b4c       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004b4c                double2int_z
-                0x10004b4c                __wrap___aeabi_d2iz
+                0x10004b54       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004b54                double2int_z
+                0x10004b54                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10004b94       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004b94                __wrap___aeabi_d2uiz
-                0x10004b94                double2uint
+                0x10004b9c       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004b9c                __wrap___aeabi_d2uiz
+                0x10004b9c                double2uint
  .text.__aeabi_double_init
-                0x10004bac       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10004bac                __aeabi_double_init
+                0x10004bb4       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10004bb4                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10004c44       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004c44                double_table_shim_on_use_helper
+                0x10004c4c       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004c4c                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10004c70       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004c70                drsub_shim
-                0x10004c76                dsub_shim
+                0x10004c78       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004c78                drsub_shim
+                0x10004c7e                dsub_shim
  .text.dadd_shim
-                0x10004c80      0x15c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004c80                dadd_shim
+                0x10004c88      0x15c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004c88                dadd_shim
  .text.dmul_shim
-                0x10004ddc      0x15c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004ddc                dmul_shim
+                0x10004de4      0x15c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004de4                dmul_shim
  .text.ddiv_shim
-                0x10004f38      0x1b0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004f38                ddiv_shim
+                0x10004f40      0x1b0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004f40                ddiv_shim
  .text.double2uint_shim
-                0x100050e8        0xe CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100050e8                double2uint_shim
-                0x100050ea                double2ufix_shim
- *fill*         0x100050f6        0x2 
+                0x100050f0        0xe CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100050f0                double2uint_shim
+                0x100050f2                double2ufix_shim
+ *fill*         0x100050fe        0x2 
  .text.double2uint64_shim
-                0x100050f8       0x70 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100050f8                double2uint64_shim
-                0x100050fa                double2ufix64_shim
-                0x1000511a                d2fix_a
+                0x10005100       0x70 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10005100                double2uint64_shim
+                0x10005102                double2ufix64_shim
+                0x10005122                d2fix_a
  .text.dunpacks
-                0x10005168       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10005168                dunpacks
+                0x10005170       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10005170                dunpacks
  .text.__aeabi_lmul
-                0x100051a4       0x32 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100051a4                __wrap___aeabi_lmul
- *fill*         0x100051d6        0x2 
+                0x100051ac       0x32 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100051ac                __wrap___aeabi_lmul
+ *fill*         0x100051de        0x2 
  .text.__aeabi_float_init
-                0x100051d8       0x64 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100051d8                __aeabi_float_init
+                0x100051e0       0x64 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100051e0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x1000523c       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x1000523c                float_table_shim_on_use_helper
- .text          0x10005268       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10005268                __aeabi_mem_init
- .text.memset   0x10005278        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10005278                __wrap_memset
- .text.memcpy   0x10005284        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10005284                __wrap_memcpy
-                0x10005284                __wrap___aeabi_memcpy
+                0x10005244       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10005244                float_table_shim_on_use_helper
+ .text          0x10005270       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10005270                __aeabi_mem_init
+ .text.memset   0x10005280        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10005280                __wrap_memset
+ .text.memcpy   0x1000528c        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000528c                __wrap_memcpy
+                0x1000528c                __wrap___aeabi_memcpy
  .text.stdio_out_chars_crlf
-                0x10005290       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005298       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10005338       0x64 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005340       0x64 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x1000539c       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000539c                __wrap_putchar
+                0x100053a4       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100053a4                __wrap_putchar
  .text.__wrap_puts
-                0x10005434       0xe0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005434                __wrap_puts
+                0x1000543c       0xe0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000543c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10005514       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005514                stdio_set_driver_enabled
+                0x1000551c       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000551c                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x10005544       0xd4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005544                __wrap_vprintf
+                0x1000554c       0xd4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000554c                __wrap_vprintf
  .text.__wrap_printf
-                0x10005618       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005618                __wrap_printf
+                0x10005620       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005620                __wrap_printf
  .text.stdio_init_all
-                0x10005630        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005630                stdio_init_all
+                0x10005638        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005638                stdio_init_all
  .text.resetd_init
-                0x10005638        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005640        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x1000563c        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005644        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10005648       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005650       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10005670        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005678        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10005674       0x60 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000567c       0x60 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x100056d4        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x100056d4                usbd_app_driver_get_cb
+                0x100056dc        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100056dc                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x100056e0       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x100056e0                tud_cdc_line_coding_cb
+                0x100056e8       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100056e8                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10005714       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10005714                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10005728       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000571c       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000571c                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x10005730       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10005738       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005740       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x1000578c       0x90 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000578c                stdio_usb_in_chars
+                0x10005794       0x90 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005794                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x1000581c      0x104 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005824      0x104 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10005920       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005928       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x100059c8       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100059c8                tud_cdc_rx_cb
+                0x100059d0       0x20 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100059d0                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x100059e8       0xe0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100059e8                stdio_usb_init
+                0x100059f0       0xe0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100059f0                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10005ac8        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005ac8                tud_descriptor_device_cb
- .text.tud_descriptor_configuration_cb
                 0x10005ad0        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005ad0                tud_descriptor_configuration_cb
+                0x10005ad0                tud_descriptor_device_cb
+ .text.tud_descriptor_configuration_cb
+                0x10005ad8        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005ad8                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10005ad8       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005ad8                tud_descriptor_string_cb
+                0x10005ae0       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005ae0                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10005b50       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10005b58       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10005b60      0x1a8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10005b60                pico_get_unique_board_id_string
+                0x10005b68      0x1a8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10005b68                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10005d08       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10005d08                flash_get_unique_id
+                0x10005d10       0x3c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10005d10                flash_get_unique_id
  .text.dcd_int_enable
-                0x10005d44        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005d44                dcd_int_enable
+                0x10005d4c        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005d4c                dcd_int_enable
  .text.dcd_set_address
-                0x10005d50       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005d50                dcd_set_address
+                0x10005d58       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005d58                dcd_set_address
  .text.dcd_connect
-                0x10005d64       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005d64                dcd_connect
+                0x10005d6c       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005d6c                dcd_connect
  .text.dcd_init
-                0x10005d74       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005d74                dcd_init
+                0x10005d7c       0x98 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005d7c                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10005e0c       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005e0c                dcd_edpt0_status_complete
+                0x10005e14       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005e14                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10005e28      0x108 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005e28                dcd_edpt_open
+                0x10005e30      0x108 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005e30                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10005f30        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005f30                dcd_edpt_close_all
+                0x10005f38        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005f38                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10005f38       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005f38                dcd_edpt_xfer
+                0x10005f40       0x24 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005f40                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10005f5c       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005f5c                dcd_edpt_stall
+                0x10005f64       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005f64                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10005f90       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005f90                dcd_edpt_clear_stall
+                0x10005f98       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005f98                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10005fc0       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005fc0                rp2040_usb_init
+                0x10005fc8       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005fc8                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x1000600c       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000600c                hw_endpoint_xfer_start
+                0x10006014       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10006014                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x1000604c       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000604c                tud_mounted
+                0x10006054       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006054                tud_mounted
  .text.tud_suspended
-                0x1000605c       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000605c                tud_suspended
+                0x10006064       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006064                tud_suspended
  .text.tud_inited
-                0x1000606c       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000606c                tud_inited
+                0x10006074       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006074                tud_inited
  .text.tud_init
-                0x10006080       0xdc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006080                tud_init
+                0x10006088       0xdc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006088                tud_init
  .text.tud_task_ext
-                0x1000615c      0x850 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000615c                tud_task_ext
+                0x10006164      0x850 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006164                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x100069ac       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100069ac                usbd_open_edpt_pair
+                0x100069b4       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100069b4                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x10006a48       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006a48                usbd_defer_func
+                0x10006a50       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006a50                usbd_defer_func
  .text.usbd_edpt_open
-                0x10006a90       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006a90                usbd_edpt_open
+                0x10006a98       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006a98                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10006ac4       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006ac4                usbd_edpt_claim
+                0x10006acc       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006acc                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10006aec       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006aec                usbd_edpt_release
+                0x10006af4       0x28 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006af4                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x10006b14       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006b14                usbd_edpt_xfer
+                0x10006b1c       0x4c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006b1c                usbd_edpt_xfer
  .text.tud_control_status
-                0x10006b60       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006b60                tud_control_status
+                0x10006b68       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006b68                tud_control_status
  .text.tud_control_xfer
-                0x10006b8c       0xac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006b8c                tud_control_xfer
+                0x10006b94       0xac CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006b94                tud_control_xfer
  .text.usbd_control_reset
-                0x10006c38       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006c38                usbd_control_reset
+                0x10006c40       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006c40                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10006c4c        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006c4c                usbd_control_set_complete_callback
+                0x10006c54        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006c54                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10006c58       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006c58                usbd_control_set_request
+                0x10006c60       0x1c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006c60                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10006c74       0xf4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006c74                usbd_control_xfer_cb
+                0x10006c7c       0xf4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006c7c                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x10006d68       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006d68                tud_cdc_n_connected
+                0x10006d70       0x30 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006d70                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10006d98       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006d98                tud_cdc_n_available
+                0x10006da0       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006da0                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10006db0       0x70 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006db0                tud_cdc_n_read
+                0x10006db8       0x70 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006db8                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10006e20       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006e20                tud_cdc_n_write_flush
+                0x10006e28       0x78 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006e28                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10006e98       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006e98                tud_cdc_n_write
+                0x10006ea0       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006ea0                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10006ecc       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006ecc                tud_cdc_n_write_available
+                0x10006ed4       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006ed4                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10006ee4       0x7c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006ee4                cdcd_init
+                0x10006eec       0x7c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006eec                cdcd_init
  .text.cdcd_reset
-                0x10006f60       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006f60                cdcd_reset
+                0x10006f68       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006f68                cdcd_reset
  .text.cdcd_open
-                0x10006f8c       0xe4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006f8c                cdcd_open
+                0x10006f94       0xe4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006f94                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10007070       0xe4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10007070                cdcd_control_xfer_cb
+                0x10007078       0xe4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007078                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10007154      0x13c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10007154                cdcd_xfer_cb
+                0x1000715c      0x13c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000715c                cdcd_xfer_cb
  .text.tusb_init
-                0x10007290        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10007290                tusb_init
+                0x10007298        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007298                tusb_init
  .text.tusb_inited
-                0x1000729c        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000729c                tusb_inited
+                0x100072a4        0x8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100072a4                tusb_inited
  .text.tu_edpt_claim
-                0x100072a4       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100072a4                tu_edpt_claim
+                0x100072ac       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100072ac                tu_edpt_claim
  .text.tu_edpt_release
-                0x100072f4       0x38 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100072f4                tu_edpt_release
+                0x100072fc       0x38 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100072fc                tu_edpt_release
  .text.tu_edpt_validate
-                0x1000732c       0x7c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000732c                tu_edpt_validate
+                0x10007334       0x7c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007334                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x100073a8       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100073a8                tu_edpt_bind_driver
+                0x100073b0       0x34 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100073b0                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x100073dc       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100073dc                tu_fifo_config
+                0x100073e4       0x6c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100073e4                tu_fifo_config
  .text.tu_fifo_count
-                0x10007448       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007448                tu_fifo_count
+                0x10007450       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007450                tu_fifo_count
  .text.tu_fifo_empty
-                0x10007474       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007474                tu_fifo_empty
+                0x1000747c       0x10 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000747c                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10007484       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007484                tu_fifo_remaining
+                0x1000748c       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000748c                tu_fifo_remaining
  .text.tu_fifo_read
-                0x100074b0       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100074b0                tu_fifo_read
+                0x100074b8       0x9c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100074b8                tu_fifo_read
  .text.tu_fifo_read_n
-                0x1000754c       0xe8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000754c                tu_fifo_read_n
+                0x10007554       0xe8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007554                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10007634       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007634                tu_fifo_write
+                0x1000763c       0xa8 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000763c                tu_fifo_write
  .text.tu_fifo_write_n
-                0x100076dc      0x178 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100076dc                tu_fifo_write_n
+                0x100076e4      0x178 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100076e4                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10007854       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007854                tu_fifo_clear
+                0x1000785c       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000785c                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10007894       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10007894                tu_fifo_set_overwritable
- .text.strncpy  0x100078dc       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(libc_a-strncpy.o)
-                0x100078dc                strncpy
- .text          0x10007904        0xe C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(libc_a-strlen.o)
-                0x10007904                strlen
+                0x1000789c       0x48 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000789c                tu_fifo_set_overwritable
+ .text.strncpy  0x100078e4       0x28 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(libc_a-strncpy.o)
+                0x100078e4                strncpy
+ .text          0x1000790c        0xe C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(libc_a-strlen.o)
+                0x1000790c                strlen
  *(.fini)
- *fill*         0x10007912        0x2 
- .fini          0x10007914        0x4 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
-                0x10007914                _fini
- .fini.__stub   0x10007918       0xc0 linker stubs
+ *fill*         0x1000791a        0x2 
+ .fini          0x1000791c        0x4 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
+                0x1000791c                _fini
+ .fini.__stub   0x10007920       0xc0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2310,124 +2310,124 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100079d8        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100079d8                        . = ALIGN (0x4)
+ .eh_frame      0x100079e0        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100079e0                        . = ALIGN (0x4)
 
-.glue_7         0x100079d8        0x0
- .glue_7        0x100079d8        0x0 linker stubs
+.glue_7         0x100079e0        0x0
+ .glue_7        0x100079e0        0x0 linker stubs
 
-.glue_7t        0x100079d8        0x0
- .glue_7t       0x100079d8        0x0 linker stubs
+.glue_7t        0x100079e0        0x0
+ .glue_7t       0x100079e0        0x0 linker stubs
 
-.vfp11_veneer   0x100079d8        0x0
- .vfp11_veneer  0x100079d8        0x0 linker stubs
+.vfp11_veneer   0x100079e0        0x0
+ .vfp11_veneer  0x100079e0        0x0 linker stubs
 
-.v4_bx          0x100079d8        0x0
- .v4_bx         0x100079d8        0x0 linker stubs
+.v4_bx          0x100079e0        0x0
+ .v4_bx         0x100079e0        0x0 linker stubs
 
-.iplt           0x100079d8        0x0
- .iplt          0x100079d8        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100079e0        0x0
+ .iplt          0x100079e0        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100079d8      0x660
+.rodata         0x100079e0      0x660
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x100079d8      0x25f CMakeFiles/FortressKey.dir/main.cpp.obj
+                0x100079e0      0x25f CMakeFiles/FortressKey.dir/main.cpp.obj
                                  0xd0 (size before relaxing)
- *fill*         0x10007c37        0x1 
+ *fill*         0x10007c3f        0x1 
  .rodata._ZL10MASTER_KEY
-                0x10007c38       0x20 CMakeFiles/FortressKey.dir/main.cpp.obj
+                0x10007c40       0x20 CMakeFiles/FortressKey.dir/main.cpp.obj
  .rodata.crypto_chacha20_djb.constprop.0.isra.0.str1.4
-                0x10007c58       0x11 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
- .rodata.zero   0x10007c58       0x80 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
+                0x10007c60       0x11 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
+ .rodata.zero   0x10007c60       0x80 CMakeFiles/FortressKey.dir/lib/monocypher.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x10007cd8       0x1b CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10007ce0       0x1b CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x10007cd8       0x1b CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10007ce0       0x1b CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10007cd8       0x22 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10007ce0       0x22 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.panic.str1.4
-                0x10007cd8       0x12 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10007ce0       0x12 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10007cd8        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10007ce0        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10007cd8       0x15 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007ce0       0x15 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x10007cd8      0x19c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10007e74        0x4 
+                0x10007ce0      0x19c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10007e7c        0x4 
  .rodata.pow10.0
-                0x10007e78       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007e80       0x50 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10007ec8       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007ed0       0x40 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10007ec8        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007ed0        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10007ed4        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007edc        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10007ee0        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007ee8        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10007eec        0x2 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10007eee        0x2 
+                0x10007ef4        0x2 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10007ef6        0x2 
  .rodata._resetd_driver
-                0x10007ef0       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10007ef8       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10007f08       0x13 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10007f10       0x13 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__bi_182.0
-                0x10007f08        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10007f10        0xc CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10007f14       0x2a CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007f1c       0x2a CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x10007f14       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007f1c       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10007f2c       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007f34       0x54 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10007f80       0x12 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007f88       0x12 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x10007f92       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10007f9a       0x14 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10007f92       0x53 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10007f92        0x2 
+                0x10007f9a       0x53 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10007f9a        0x2 
  .rodata.tud_task_ext
-                0x10007f94       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007f9c       0x8c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10008020       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10008038                        . = ALIGN (0x4)
+                0x10008028       0x18 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10008040                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10008038                        . = ALIGN (0x4)
+                0x10008040                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10008038                        __exidx_start = .
+                0x10008040                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10008038                        __exidx_end = .
-                0x10008038                        . = ALIGN (0x4)
-                0x10008038                        __binary_info_start = .
+                0x10008040                        __exidx_end = .
+                0x10008040                        . = ALIGN (0x4)
+                0x10008040                        __binary_info_start = .
 
-.binary_info    0x10008038       0x20
+.binary_info    0x10008040       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10008038        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
-                0x1000803c        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
                 0x10008040        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr75
                 0x10008044        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
+ .binary_info.keep.__bi_ptr50
                 0x10008048        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
+ .binary_info.keep.__bi_ptr44
                 0x1000804c        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr22
+ .binary_info.keep.__bi_ptr38
                 0x10008050        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr30
+                0x10008054        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr22
+                0x10008058        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x10008054        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10008058                        __binary_info_end = .
+                0x1000805c        0x4 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008060                        __binary_info_end = .
 
-.rel.dyn        0x10008058        0x0
- .rel.iplt      0x10008058        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10008058                        . = ALIGN (0x4)
+.rel.dyn        0x10008060        0x0
+ .rel.iplt      0x10008060        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10008060                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2436,7 +2436,7 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x20000000       0xc0 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0xea0 load address 0x10008058
+.data           0x200000c0      0xea0 load address 0x10008060
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2569,29 +2569,29 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  *(.jcr)
                 0x20000f60                        . = ALIGN (0x4)
                 0x20000f60                        __data_end__ = .
-                0x10008058                        __etext = LOADADDR (.data)
+                0x10008060                        __etext = LOADADDR (.data)
 
-.igot.plt       0x20000f60        0x0 load address 0x10008ef8
+.igot.plt       0x20000f60        0x0 load address 0x10008f00
  .igot.plt      0x20000f60        0x0 C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000f60        0x0 load address 0x10008ef8
+                0x20000f60        0x0 load address 0x10008f00
                 0x20000f60                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10008ef8
+.scratch_x      0x20040000        0x0 load address 0x10008f00
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10008ef8                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008f00                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10008ef8
+.scratch_y      0x20041000        0x0 load address 0x10008f00
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10008ef8                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008f00                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000f60      0xd88
                 0x20000f60                        . = ALIGN (0x4)
@@ -2708,8 +2708,8 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10008ef8        0x0
-                0x10008ef8                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10008f00        0x0
+                0x10008f00                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2789,7 +2789,7 @@ LOAD CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pi
 LOAD CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
+LOAD C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2905,7 +2905,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007a2       0x2c CMakeFiles/FortressKey.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x000007ce       0x22 C:\Users\HP\AppData\Local\Temp\ccIC6ZzD.o
+                0x000007ce       0x22 C:\Users\HP\AppData\Local\Temp\ccEo5N9b.o
  .ARM.attributes
                 0x000007f0       0x1e C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
