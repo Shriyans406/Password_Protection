@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar for that 'Hacker' look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-vault;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded;
+}
+
+body {
+    @apply bg-vault text-gray-100 font-mono overflow-x-hidden;
+}
