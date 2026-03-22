@@ -2,19 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar for that 'Hacker' look */
+@layer base {
+  :root {
+    --neon-glow: 0 0 10px rgba(34, 197, 94, 0.4), 0 0 20px rgba(34, 197, 94, 0.2);
+    --locked-glow: 0 0 10px rgba(239, 68, 68, 0.4), 0 0 20px rgba(239, 68, 68, 0.2);
+  }
+
+  body {
+    @apply bg-[#05080f] text-slate-300 font-mono overflow-x-hidden;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(30, 41, 59, 0.2) 0%, transparent 80%),
+      linear-gradient(rgba(15, 23, 42, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15, 23, 42, 0.1) 1px, transparent 1px);
+    background-size: 100% 100%, 40px 40px, 40px 40px;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate-900/40 backdrop-blur-md border border-slate-700/50 shadow-2xl;
+  }
+  
+  .neon-text {
+    @apply text-neon;
+    text-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+  }
+
+  .scanning-line {
+    @apply absolute w-full h-[1px] bg-neon/30;
+    animation: scan 3s linear infinite;
+  }
+}
+
+@keyframes scan {
+  from { top: 0; }
+  to { top: 100%; }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-    @apply bg-vault;
+    @apply bg-slate-950;
 }
 
 ::-webkit-scrollbar-thumb {
-    @apply bg-slate-700 rounded;
-}
-
-body {
-    @apply bg-vault text-gray-100 font-mono overflow-x-hidden;
+    @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
 }
