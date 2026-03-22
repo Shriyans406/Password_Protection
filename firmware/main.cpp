@@ -33,12 +33,11 @@ void decrypt_secret(const SecretEntry* entry, char* out_plain_pass) {
     crypto_chacha20_djb(
         (uint8_t*)out_plain_pass, 
         entry->encrypted_password, 
-        7, // Exactly 7 for Pass123
+        64, 
         MASTER_KEY, 
         entry->nonce, 
         0
     );
-    out_plain_pass[7] = '\0'; // The stop-sign
 }
 
 int main() {
@@ -49,10 +48,12 @@ int main() {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
-    const uint TRIGGER_PIN = 20; 
+    // --- NEW: PHYSICAL TRIGGER SETUP ---
+    const uint TRIGGER_PIN = 20; // Use GPIO 20
     gpio_init(TRIGGER_PIN);
     gpio_set_dir(TRIGGER_PIN, GPIO_IN);
-    gpio_pull_up(TRIGGER_PIN);
+    gpio_pull_up(TRIGGER_PIN); // Pull it HIGH by default
+    // ------------------------------------
 
     SecretEntry vault_test;
     memset(&vault_test, 0, sizeof(vault_test));
@@ -60,24 +61,36 @@ int main() {
     char plain_pass[] = "Pass123";
 
     generate_random_nonce(vault_test.nonce, 8);
-    crypto_chacha20_djb(vault_test.encrypted_password, (const uint8_t*)plain_pass, 7, MASTER_KEY, vault_test.nonce, 0);
+    crypto_chacha20_djb(vault_test.encrypted_password, (const uint8_t*)plain_pass, strlen(plain_pass), MASTER_KEY, vault_test.nonce, 0);
 
     while (true) {
-        printf("\r\n--- FORTRESS KEY: PHASE 5 (STABLE) ---\r\n");
+        printf("\r\n--- FORTRESS KEY: PHASE 5 ---\r\n");
         printf("Service:   %s\r\n", vault_test.service);
         
+        printf("Nonce:     ");
+        for(int i=0; i<8; i++) printf("%02x ", vault_test.nonce[i]);
+        
+        printf("\r\nEncrypted: ");
+        for(int i=0; i<8; i++) printf("%02x ", vault_test.encrypted_password[i]);
+
+        // --- NEW: THE SECURITY GATE ---
+        // If Pin 20 is NOT touched to Ground, it stays HIGH (1)
         if (gpio_get(TRIGGER_PIN)) {
-            gpio_put(LED_PIN, 0); 
-            printf("DECRYPTED: [LOCKED] PRESS BUTTON#\r\n");
+            gpio_put(LED_PIN, 0); // LED Off
+            printf("\r\nDECRYPTED: [LOCKED] PRESS BUTTON\r\n");
         } 
         else {
-            gpio_put(LED_PIN, 1); 
+            // Pin 20 is touched to Ground!
+            gpio_put(LED_PIN, 1); // LED On to show "Authorized"
             char decrypted_pass[64] = {0};
             decrypt_secret(&vault_test, decrypted_pass);
-            printf("DECRYPTED: %s#\r\n", decrypted_pass);
-            sleep_ms(1000); 
+            
+            // We print a special '#' so the Backend knows where the password ends (Fixes the "D" typo)
+            printf("\r\nDECRYPTED: %s#\r\n", decrypted_pass);
+            sleep_ms(1000); // Keep it unlocked for 1 second
         }
         printf("----------------------------------------\r\n");
-        sleep_ms(1000);
+
+        sleep_ms(500);
     }
 }
